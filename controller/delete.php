@@ -11,7 +11,7 @@ try {
     exit();
 
 } catch (PDOException $e) {
-    echo"error delete record:". $e->getMessage();
+    echo"error delete :". $e->getMessage();
 
 }
 $conn = null;
